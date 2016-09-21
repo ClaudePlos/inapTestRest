@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="NapPU_Test" transaction-type="JTA">
+    <jta-data-source>oracle_local_Test</jta-data-source>
+    <class>pl.models.ckk.AdresyVO</class>
+    <class>pl.models.hr.PracownikVO</class>
+    <class>pl.models.hr.ZatrudnienieVO</class>
+    <class>pl.models.users.NapUzytkownikVO</class>
+    <class>pl.models.css.StanowiskoKosztow</class>
+    <class>pl.models.nupr.NuprUprawnienieSk</class>
+    <class>pl.models.zad.PrzypisanieZadaniaVO</class>
+    <class>pl.models.zad.ZadanieVO</class>
+    <class>pl.models.zad.ZmiennaZadaniaVO</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
